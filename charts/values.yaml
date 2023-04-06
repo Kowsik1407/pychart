@@ -1,0 +1,7 @@
+deployment:
+  image: "kowsik14/pychart"
+  tag: "latest"
+name: pychart
+service:
+  type: LoadBalancer
+  port: 80
