@@ -1,5 +1,5 @@
 deployment:
-  image: "kowsik14/pychart"
+  image: "rkowsik/pychart"
   tag: "latest"
 name: pychart
 service:
