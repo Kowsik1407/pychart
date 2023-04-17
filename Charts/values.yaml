@@ -1,6 +1,7 @@
 deployment:
   image: "rkowsik/pychart"
   tag: "latest"
+  secret: regcred
 name: pychart
 service:
   type: LoadBalancer
